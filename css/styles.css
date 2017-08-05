@@ -60,21 +60,18 @@ main {
     background-size: 100% 100%;
     /* right: auto; */
     background-repeat: no-repeat;
-    width: 100%;
 }
 
 #second-aside-block {
     background-image: url('../images/productionlogo.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 100%;    
 }
 
 #third-aside-block {
     background-image: url('../images/serviceslogo.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 100%;    
 }
 
 .aside-block-heading {
@@ -243,10 +240,6 @@ body {
         position: initial;
         height: 30%;
     }
-
-    #first-aside-block, #second-aside-block, #third-aside-block {
-        width: 90%;
-    }
 }
 
 @media(max-width: 770px) and (min-width: 640px) {
@@ -270,5 +263,9 @@ body {
         text-align: center;
         background-color: black;
         position: initial;
+    }
+
+    #first-aside-block, #second-aside-block, #third-aside-block {
+        width: 100%;
     }
 }
