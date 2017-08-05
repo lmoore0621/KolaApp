@@ -64,13 +64,13 @@ main {
 }
 
 #second-aside-block {
-    background-image: url('../images/productionlogo.jpg');
+    background-image: url('../images/serviceslogo.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 #third-aside-block {
-    background-image: url('../images/serviceslogo.jpg');
+    background-image: url('../images/productionlogo.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -214,28 +214,47 @@ body {
 }
 
 @media(min-width: 992px) {
-    .top-text,
-    .bottom-text {
-        font-size: 18px;
-    }
+    
     .top-text {
-        margin-top: 30px;
+         margin-top: 30px; 
+        font-size: 20px;
     }
     .middle-text {
-        margin-top: 2px;
-        font-size: 14px;
+        margin-top: 25px;
+        font-size: 20px;
     }
     .bottom-text {
-        margin-top: 50px;
+        margin-top: 15px;
+        font-size: 15px;
     }
     .aside-blocks {
         height: 33.33%;
         padding: 0px;
+        width: 90%;
     }
     #small-image {
         width: 100%;
         margin-top: 10%;
-    }   
+    }
+
+    .col-xs-12 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+     .aside-header {
+        position: initial;
+        height: 31%;
+        width: 10%;
+    } 
+
+    .aside-header span {
+        transform: rotate(-180deg);
+        writing-mode: vertical-lr; 
+        color: white;
+        font-family: 'Fredericka the Great', cursive;
+        /* padding: 0px 0px 15px 0px !important;  */
+    }
 }
 
 @media(max-width: 770px) and (min-width: 640px) {
