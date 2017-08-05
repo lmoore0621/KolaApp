@@ -60,18 +60,21 @@ main {
     background-size: 100% 100%;
     /* right: auto; */
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 #second-aside-block {
     background-image: url('../images/productionlogo.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    width: 100%;    
 }
 
 #third-aside-block {
     background-image: url('../images/serviceslogo.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    width: 100%;    
 }
 
 .aside-block-heading {
