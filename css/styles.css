@@ -57,7 +57,7 @@ main {
 #first-aside-block {
     background-image: url('../images/connectionlogo.jpg');
     background-size: 100% 100%;
-    right: auto;
+    /* right: auto; */
     background-repeat: no-repeat;
 }
 
@@ -233,5 +233,38 @@ body {
     #small-image {
         width: 100%;
         margin-top: 10%;
+    }
+
+    .aside-header {
+        position: initial;
+        height: 30%;
+    }
+
+    #first-aside-block, #second-aside-block, #third-aside-block {
+        width: 90%;
+    }
+}
+
+@media(max-width: 770px) and (min-width: 640px) {
+    .aside-blocks {
+        height: 100%;
+        padding: 0px;
+    }
+
+    .aside-header span {
+        writing-mode: initial;
+    }
+
+    .top-text, .middle-text, .bottom-text{
+        font-size: 20px;
+    }
+
+    .aside-header {
+        width: 100%;
+        z-index: -1;
+        height: 10%;
+        text-align: center;
+        background-color: black;
+        position: initial;
     }
 }
